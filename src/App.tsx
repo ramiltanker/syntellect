@@ -1,8 +1,10 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import {ControlWithButtons} from './components/ControlWithButtons/ControlWithButtons';
 
-function App() {
-  return <div></div>;
+export function App() {
+    return (
+        <>
+            <ControlWithButtons />
+        </>
+    );
 }
-
-export default App;

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.leftButtons {
+    order: -1;
+}
+
+.input {
+    order: 0;
+}
+
+.rightButtons {
+    order: 1;
+}
